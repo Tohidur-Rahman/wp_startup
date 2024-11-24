@@ -1,0 +1,75 @@
+/*
+
+Theme Name: Wpstartup
+Theme URI: https://techtohid.com/
+Author: Tohidur Rahman
+Author URI: https://techtohid.com/
+Description: Multipurpose Website with Premium Features.
+Tags: Business
+Version: 1.0
+Requires at least: 5.0
+Tested up to: 5.9
+Requires PHP: 7.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: wpstartup
+
+*/
+
+
+.widget_nav_menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .widget_nav_menu ul li a {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: block;
+  }
+  .widget_nav_menu ul li {
+    position: relative;
+    padding-left: 20px;
+  }
+  .widget_nav_menu ul li:before {
+    content: "\f061";
+    font-weight: 700;
+    font-family: "Font Awesome 5 Free";
+    position: absolute;
+    left: 0;
+    top: 1px;
+  }
+  .comment-notes, .comment-form label, .comment-form-cookies-consent {
+    display: none;
+  }
+  .comment-form input, .comment-form textarea {
+    width: 100%;
+    border: 0;
+    padding: .375rem .75rem;
+    height: 55px;
+  }
+  .comment-form textarea {
+    height: 150px;
+  }
+  .comment-form #submit {
+    background-color: #06A3DA;
+    font-weight: bold;
+    font-size: 20px;
+    color: #fff;
+  }
+
+input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required.form-control.border-0.bg-light.px-4 {
+    height: 55px !important;
+}
+  
+  .footer-about .btn-dark{
+    float: left;
+    height: 58px !important;
+  }
+  .input-group p {
+    display: flex;
+  }
+  .input-group p .wpcf7-spinner{
+    display: none;
+  }
